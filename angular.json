@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "second-app"
+    }
+  },
+  "defaultProject": "second-app",
+  "cli": {
+    "analytics": "191da9d0-30bf-4711-b948-1f2b2ede2e4d"
+  }
 }

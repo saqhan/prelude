@@ -1,0 +1,27 @@
+.process-work {
+  padding: 100px 0;
+}
+.process-sub-title {
+  font-family: 'Open Sans', sans-serif;
+  color: #5e5d6c;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 65px;
+}
+
+.process-work-cart {
+  text-align: center;
+  padding: 0 45px;
+}
+
+.border-bottom-process {
+  width: 20px;
+  border-bottom: 5px solid red;
+}
+
+hr {
+  border: 3px solid #e7e7e7;
+  width: 30px;
+  border-radius: 5px;
+}

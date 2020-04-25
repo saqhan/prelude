@@ -1,0 +1,25 @@
+.specialize-left{
+  display: flex;
+  justify-content: center;
+}
+
+.specialize-left img {
+  width: 90%;
+}
+
+.detail {
+  display: flex;
+  align-items: baseline;
+}
+
+.icon_block {
+  margin-right: 20px;
+}
+.up-title {
+  color: #ff3366;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+

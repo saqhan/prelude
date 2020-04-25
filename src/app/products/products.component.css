@@ -1,0 +1,151 @@
+.quickly {
+  background-image: url('src/assets/img/dots.png');
+  background-repeat: no-repeat;
+  background-position-x: 1330px;
+  background-position-y: 150px;
+}
+
+.quickly-title {
+  font-size: 42px;
+  font-weight: 500;
+  color: #39374d;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.quickly-sub-title {
+  font-family: 'Open Sans', sans-serif;
+  color: #5e5d6c;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+
+.quickly-blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.quickly-blocks .block {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  height: 330px;
+  width: 360px;
+  border-radius: 15px;
+  padding-top: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 40px;
+  transition: 0.3s ease-in;
+}
+
+.quickly-blocks .block:hover {
+  border-bottom: 5px solid #ff3366;
+  cursor: pointer;
+}
+
+
+.name-block {
+  font-size: 22px;
+  color: #39374d;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.info-block {
+  font-size: 16px;
+  color: #748494;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 480px;
+}
+
+.more-quickly {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.view-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid #b7b7b7;
+  color: #b7b7b7;
+  width: 150px;
+  height: 50px;
+  transition: 0.3s ease-in;
+}
+
+.view-all:hover {
+  background-color: #ff3366;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+}
+
+
+.arrow-right {
+  margin-top: 30px;
+  text-align: right;
+  display: none;
+  transition: 0.3s ease-in;
+
+}
+
+.quickly-blocks .block:hover .arrow-right {
+  display: block;
+}
+
+.arrow-right i {
+  color: #ff3366;
+}
+
+@media screen and (max-width: 1024px) {
+  .quickly-blocks {
+    display: flex;
+    justify-content: space-around;
+  }
+  .quickly-blocks .block {
+    margin-bottom: 50px;
+  }
+  .more-quickly {
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quickly-blocks .block {
+    height: 330px;
+    width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 414px) {
+
+  .quickly-sub-title {
+    padding-bottom: 50px;
+  }
+  .quickly-blocks .block {
+    text-align: center;
+  }
+
+  .quickly-title {
+    font-size: 34px;
+  }
+
+}

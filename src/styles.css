@@ -1,1 +1,321 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.btn-theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #ff3366;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+}
+
+.btn-theme:hover {
+  background-color: #ff5982;
+  color: #fff;
+  text-decoration: none;
+}
+
+.up-title {
+  color: #ff3366;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.main-title {
+  font-size: 52px;
+  font-weight: 300;
+  line-height: 65px;
+  color: #39374d;
+  max-width: 500px;
+}
+
+.main-title span {
+  font-weight: 500;
+}
+
+.sub-title {
+  color: #5e5d6c;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+}
+
+.link-more {
+  margin-top: 50px;
+}
+
+.info-block {
+  font-size: 16px;
+  color: #748494;
+  font-family: "Open Sans", sans-serif;
+  max-width: 480px;
+}
+.name-block {
+  font-size: 22px;
+  color: #39374d;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .first-title {
+    font-size: 75px;
+  }
+  .first-sub-title {
+    font-size: 25px;
+  }
+  .cart-stat {
+    width: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .subscribe-form i {
+    left: -29.5%;
+  }
+
+  .cart-name i {
+    left: 35%;
+  }
+}
+
+.quickly-title {
+  font-size: 42px;
+  font-weight: 500;
+  color: #39374d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .quickly-blocks {
+    display: flex;
+    justify-content: space-around;
+  }
+  .quickly-blocks .block {
+    margin-bottom: 50px;
+  }
+  .more-quickly {
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+  .specialize-left img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    align-items: baseline;
+    padding-bottom: 15px;
+  }
+  .first-title {
+    font-size: 70px;
+  }
+  .logo-block {
+    margin-top: 20px;
+  }
+  .banner .btn-theme {
+    margin-top: 30px;
+  }
+  .info-block {
+    max-width: 100%;
+  }
+  .cart-stat {
+    border: 1px solid #e7e7e7;
+    width: 340px;
+    padding-left: 30px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+  }
+  .static .row {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+
+  .footer-info-block {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .cart-name i {
+    left: 30%;
+    top: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    background-color: #444444f2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .process-work {
+    padding: 50px 0;
+  }
+
+  .news-cart {
+    margin-bottom: 20px;
+  }
+
+  .second {
+    padding: 60px 0;
+  }
+  .second-left {
+    margin-bottom: 30px;
+  }
+  .second-up-title {
+    margin-top: 0px;
+  }
+  .quickly-blocks .block {
+    height: 330px;
+    width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+  }
+  .info-block,
+  .main-title {
+    max-width: 100%;
+  }
+  .logos {
+    margin: 50px auto;
+  }
+  .tabs {
+    background-position: bottom;
+  }
+  .static {
+    margin: 50px auto;
+  }
+  .right-tabs {
+    margin-top: 30px;
+  }
+  .detail {
+    justify-content: center;
+  }
+  .main-title,
+  .up-title {
+    text-align: center;
+  }
+  .cart-name i {
+    left: 57%;
+  }
+  .subscribe-form i {
+    left: -40%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .first-title {
+    font-size: 60px;
+  }
+  .first-sub-title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .subscribe-form i {
+    left: -75%;
+  }
+  .subscribe-form input {
+    padding-left: 80px;
+    left: 0;
+    margin-bottom: 10px;
+  }
+  .subscribe-form {
+    height: 50px;
+    overflow: initial;
+  }
+  .subscribe-form button {
+    position: relative;
+    left: -0px;
+    height: 49px;
+    top: 0px;
+  }
+  .first-title {
+    font-size: 45px;
+  }
+  .first-sub-title {
+    font-size: 25px;
+  }
+  .second {
+    padding: 60px 15px;
+  }
+  .second-title {
+    font-size: 46px;
+  }
+  .up-title {
+    margin-top: 0px;
+  }
+  .first-title {
+    font-size: 42px;
+  }
+  .link-more {
+    margin-bottom: 20px;
+  }
+  .quickly-sub-title {
+    padding-bottom: 50px;
+  }
+  .quickly-blocks .block {
+    text-align: center;
+  }
+  .specialize .block-right {
+    margin-top: 30px;
+  }
+  .quickly-title {
+    font-size: 34px;
+  }
+  .main-title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .logo-block {
+    margin-top: 30px;
+  }
+  .logo-block:first-child {
+    margin-top: 0px;
+  }
+  .static {
+    margin: 30px auto;
+  }
+  .static .row div {
+    text-align: center;
+    margin: 5px auto;
+  }
+  .tabs {
+    background-position: unset;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer-title {
+    margin-top: 20px;
+  }
+  .coopyrite {
+    text-align: center;
+  }
+  .coopyrite .right {
+    text-align: center;
+  }
+  .tabs-title {
+    font-size: 34px;
+    text-align: center;
+  }
+  .cart-name i {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cart-name i {
+    left: 10%;
+  }
+}

@@ -1,0 +1,12 @@
+.logos {
+  height: auto;
+  margin: 100px auto;
+
+}
+.logos .row {
+  align-items: center;
+}
+
+.logo-block {
+  text-align: center;
+}

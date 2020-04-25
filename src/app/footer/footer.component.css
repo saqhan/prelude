@@ -1,0 +1,159 @@
+.footer {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+
+.footer-info {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #5e5d6c;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer-info-office {
+  color: #5e5d6c;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-info-number {
+  color: #ff3366;
+  font-size: 14px;
+}
+
+.footer-title {
+  margin-bottom: 35px;
+  color: #39374d;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-item ul {
+  padding-left: 0px;
+}
+.footer-item ul li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.foot-nav-link {
+  font-family: 'Futura PT Book';
+  color: #39374d;
+  font-size: 16px;
+  transition: 0.1s ease;
+}
+
+.foot-nav-link:hover {
+  color: #ff3366;
+  font-family: 'Futura PT';
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 2px solid #ff3366;
+}
+
+/* footer icon style */
+
+.btn.btn-social-icon {
+  width: 50px;
+  height: 50px;
+  padding: 0
+}
+
+.template-demo>.btn {
+  margin-right: 0.5rem !important
+}
+
+.template-demo {
+  margin-top: 0.5rem !important
+}
+
+.btn.btn-rounded {
+  border-radius: 50px
+}
+
+
+
+.btn-facebook, .btn-twitter, .btn-instagram  {
+  background: #fff;
+  color: #c4c4c4;
+  border:1px solid #c4c4c4;
+}
+
+
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background: #ff3366;
+  color: #ffffff
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+  background: #ff3366;
+  color: #ffffff
+}
+
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+  background: #ff3366;
+  color: #ffffff
+}
+/* footer icon style */
+
+/* coopyrite */
+
+.coopyrite {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e2e7ea;
+}
+
+.coopyrite .left {
+  color: #5e5d6c;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.coopyrite .right {
+  text-align: right;
+  color: #5e5d6c;
+}
+.coopyrite .right a {
+  font-family: 'Futura PT Book';
+  color: #5e5d6c;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 992px) {
+  .footer {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+
+  .footer-info-block {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .footer {
+    text-align: center;
+  }
+  .footer-title {
+    margin-top: 20px;
+  }
+  .coopyrite {
+    text-align: center;
+  }
+  .coopyrite .right {
+    text-align: center;
+  }
+}

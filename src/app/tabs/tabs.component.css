@@ -1,0 +1,76 @@
+.tabs {
+  background-image: url('src/assets/img/tabs_bg.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-bottom: 45px;
+  background-position-y: 60px;
+}
+
+.tabs-title {
+  font-size: 32px;
+  color:#39374d;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.tab-item {
+  border: 1px solid #9fe7ff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.is-active {
+  background-color: #ebebeb;
+}
+
+.accord-parent{
+  max-width: 300px;
+}
+.accord-item{
+  position: relative;
+}
+
+.question{
+  font-weight: 800;
+}
+
+.answer{
+  display: none;
+}
+
+.indicator{
+  position: absolute;
+  top: 1.5em;
+  left: 0;
+  height: 13px;
+  width: 14px;
+  outline: none;
+  margin-left: 10px;
+  border: none;
+  background: transparent;
+}
+
+.indicator span {
+  background: #39374d;
+  position: absolute;
+  transition: all 300ms ease;
+}
+.indi--top{
+  height: 100%;
+  width: 2px;
+  top: 0; left: 50%;
+  margin-left: -1px;
+}
+.indi--bot{
+  height: 2px;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  margin-top: -1px;
+}
+.accord-item--inner {
+  padding: 1em 0em 1em 2em;
+  cursor: pointer;
+}
+.accord-item.is-active .indi--top {
+  transform: rotate(90deg);
+}
