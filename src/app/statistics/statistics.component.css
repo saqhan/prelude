@@ -12,6 +12,7 @@
   padding-right: 35px;
   transition: 0.3s ease-in;
   cursor: pointer;
+  line-height: 1.5;
 }
 
 .cart-stat:hover {
@@ -25,7 +26,7 @@
 }
 
 .number-stat span {
-  color:#7540ee ;
+  color: #7540ee;
 }
 
 .title-stat {
@@ -36,9 +37,23 @@
 
 .sub-title-stat {
   font-size: 14px;
-  color:#5e5d6c;
-  font-family: 'Open Sans', sans-serif;
+  color: #5e5d6c;
+  font-family: "Open Sans", sans-serif;
 }
 .right-tabs img {
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .cart-stat {
+    width: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cart-stat {
+    width: 100%;
+    text-align: center;
+  }
 }

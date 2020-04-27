@@ -17,6 +17,9 @@ import { TabsComponent } from './tabs/tabs.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { FilterComponent } from './filter/filter.component';
 import { NewsComponent } from './news/news.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+
 
 @NgModule({
   declarations: [
@@ -39,7 +42,9 @@ import { NewsComponent } from './news/news.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

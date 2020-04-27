@@ -1,36 +1,20 @@
-<div class="container-fluid quickly" >
+<div class="container-fluid quickly">
   <div class="row">
-    <div class="col-lg-10 quickly-title m-auto">Design digital products more quickly</div>
-    <div class="col-lg-5 quickly-sub-title m-auto">If you need help making one from scratch or evolving an existing one,
-      we’d love to talk with you about how we can help.</div>
+    <div class="col-lg-10 quickly-title m-auto">
+      Design digital products more quickly
+    </div>
+    <div class="col-lg-5 quickly-sub-title m-auto">
+      If you need help making one from scratch or evolving an existing one, we’d
+      love to talk with you about how we can help.
+    </div>
   </div>
   <div class="container">
     <div class="row quickly-blocks">
-      <div class=" block">
-        <div class="block-image"> <img src=".../../assets/img/icons/1.png" > </div>
-        <div class="name-block">Photography & Video</div>
+      <div class="block" *ngFor="let block of blocks">
+        <div class="block-image"><img src="{{ block.img }}" /></div>
+        <div class="name-block">{{ block.name }}</div>
         <div class="info-block">
-          We work with you to get your brand out there and drive traffic & enquiries to help the sales team convert
-        </div>
-        <div class="arrow-right">
-          <i class="fas fa-arrow-right"></i>
-        </div>
-      </div>
-      <div class=" block">
-        <div class="block-image"> <img src="../../assets/img/icons/2.png" > </div>
-        <div class="name-block">Branding & Positioning</div>
-        <div class="info-block">
-          We work with you to get your brand out there and drive traffic & enquiries to help the sales team convert
-        </div>
-        <div class="arrow-right">
-          <i class="fas fa-arrow-right"></i>
-        </div>
-      </div>
-      <div class=" block">
-        <div class="block-image"> <img src="../../assets/img/icons/3.png" > </div>
-        <div class="name-block">User Research & Design</div>
-        <div class="info-block">
-          We work with you to get your brand out there and drive traffic & enquiries to help the sales team convert
+          {{ block.info }}
         </div>
         <div class="arrow-right">
           <i class="fas fa-arrow-right"></i>

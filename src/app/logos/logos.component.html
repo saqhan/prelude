@@ -1,8 +1,7 @@
 <div class="container logos">
   <div class="row">
-    <div class="col-lg-3 col-md-6 logo-block"> <img src="../../assets/img/logos/1.png" alt=""> </div>
-    <div class="col-lg-3 col-md-6 logo-block"><img src="../../assets/img/logos/2.png" alt=""> </div>
-    <div class="col-lg-3 col-md-6 logo-block"><img src="../../assets/img/logos/3.png" alt=""> </div>
-    <div class="col-lg-3 col-md-6 logo-block"><img src="../../assets/img/logos/4.png" alt=""> </div>
+    <div class="col-lg-3 col-md-6 logo-block" *ngFor="let logo of logos">
+      <img src="{{ logo.img }}" alt="" />
+    </div>
   </div>
 </div>

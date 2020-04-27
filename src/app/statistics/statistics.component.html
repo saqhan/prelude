@@ -1,24 +1,14 @@
 <div class="container static">
   <div class="row">
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6" *ngFor="let cart of cartStat">
       <div class="cart-stat">
-        <div class="number-stat">80<span>+</span></div>
-        <div class="title-stat">Launched startups</div>
-        <div class="sub-title-stat">We define behaviour, looks and personality for your product.</div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-6">
-      <div class="cart-stat">
-        <div class="number-stat">1.2<span>k</span></div>
-        <div class="title-stat">Completed projects</div>
-        <div class="sub-title-stat">We define behaviour, looks and personality for your product.</div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-6">
-      <div class="cart-stat">
-        <div class="number-stat">2.4<span>m</span></div>
-        <div class="title-stat">Total downloads</div>
-        <div class="sub-title-stat">We define behaviour, looks and personality for your product.</div>
+        <div class="number-stat">
+          {{ cart.count }}<span>{{ cart.countType }}</span>
+        </div>
+        <div class="title-stat">{{ cart.title }}</div>
+        <div class="sub-title-stat">
+          {{cart.subtitle}}
+        </div>
       </div>
     </div>
   </div>

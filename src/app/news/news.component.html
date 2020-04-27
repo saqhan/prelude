@@ -6,68 +6,21 @@
       </div>
     </div>
     <div class="row news-block">
-      <div class="col-lg-4">
+      <div class="col-lg-4" *ngFor="let news of news">
         <div class="news-cart">
           <div class="news-title">
-            Tips for creating a digital product that can make you a tidy profit
+            {{ news.title }}
           </div>
           <div class="news-description">
-            It will continue many of the best deals from Black Friday and Cyber
-            Monday
+            {{ news.subtitle }}
           </div>
           <div class="news-author">
             <div class="left">
-              <img src="../../assets/img/avatar-3.jpg" alt="" />
+              <img src="{{ news.img }}" alt="" />
             </div>
             <div class="right">
-              <div class="author-name">Earlene Monna</div>
-              <div class="date-news">20 September 2020</div>
-            </div>
-          </div>
-          <div class="arrow-news">
-            <i class="fas fa-arrow-right"></i>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="news-cart">
-          <div class="news-title">
-            Tips for creating a digital product that can make you a tidy profit
-          </div>
-          <div class="news-description">
-            It will continue many of the best deals from Black Friday and Cyber
-            Monday
-          </div>
-          <div class="news-author">
-            <div class="left">
-              <img src="../../assets/img/avatar-2.jpg" alt="" />
-            </div>
-            <div class="right">
-              <div class="author-name">Stella Smith</div>
-              <div class="date-news">27 August 2020</div>
-            </div>
-          </div>
-          <div class="arrow-news">
-            <i class="fas fa-arrow-right"></i>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="news-cart">
-          <div class="news-title">
-            PadOS will get a full release on September 24
-          </div>
-          <div class="news-description">
-            It will continue many of the best deals from Black Friday and Cyber
-            Monday
-          </div>
-          <div class="news-author">
-            <div class="left">
-              <img src="../../assets/img/avatar-1.jpg" alt="" />
-            </div>
-            <div class="right">
-              <div class="author-name">Frenki Black</div>
-              <div class="date-news">17 August 2019</div>
+              <div class="author-name">{{ news.user }}</div>
+              <div class="date-news">{{ news.date }}</div>
             </div>
           </div>
           <div class="arrow-news">

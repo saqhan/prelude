@@ -28,7 +28,9 @@
 .accord-item{
   position: relative;
 }
-
+.right-tabs img {
+  width: 100%;
+}
 .question{
   font-weight: 800;
 }

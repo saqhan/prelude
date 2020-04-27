@@ -68,11 +68,6 @@
   .first-sub-title {
     font-size: 25px;
   }
-  .cart-stat {
-    width: 300px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
   .subscribe-form i {
     left: -29.5%;
   }
@@ -319,3 +314,6 @@
     left: 10%;
   }
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -5,10 +5,11 @@
         We design digital products
       </div>
       <div class="filter-title">
-        We work with <span>incredible customers & companies</span> around the world
+        We work with <span>incredible customers & companies</span> around the
+        world
       </div>
     </div>
-    <div class=" col-lg-12 filter-btns text-center">
+    <div class="col-lg-12 filter-btns text-center">
       <ul>
         <li>All</li>
         <li>App</li>
@@ -20,34 +21,17 @@
     </div>
   </div>
   <div class="row carts-block">
-    <div class="col-lg-6 ">
-      <div class="filter-cart firtst-cart">
-        <a href="#" class="cart-name">
-          Knowledge About Design <i class="fas fa-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-    <div class="col-lg-6 ">
-      <div class="filter-cart second-cart">
-        <a href="#" class="cart-name">
-          Knowledge About Design <i class="fas fa-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-    <div class="col-lg-6 ">
-      <div class="filter-cart third-cart">
-        <a href="#" class="cart-name">
-          Knowledge About Design <i class="fas fa-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-    <div class="col-lg-6 ">
-      <div class="filter-cart fourth-cart">
-        <a href="#" class="cart-name">
-          Knowledge About Design <i class="fas fa-arrow-right"></i>
-        </a>
+    <div class="col-lg-6" *ngFor="let filter of caseBlocks">
+      <div class="filter-cart">
+        <div>
+          <img src="{{ filter.img }}" alt="" />
+        </div>
+        <div>
+          <a href="#" class="cart-name">
+            Knowledge About Design <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>
-
 </div>
