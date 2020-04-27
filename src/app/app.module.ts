@@ -18,7 +18,7 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { FilterComponent } from './filter/filter.component';
 import { NewsComponent } from './news/news.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 @NgModule({
@@ -44,7 +44,10 @@ import { MatSliderModule } from '@angular/material/slider';
     ReactiveFormsModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatTabsModule
+  ],
+  exports: [
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
