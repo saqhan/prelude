@@ -11,6 +11,10 @@
   width: 150px;
   height: 50px;
 }
+.mat-tab-body-content {
+  padding: 20px;
+  background-color: #9fe7ffb3;
+}
 
 .btn-theme:hover {
   background-color: #ff5982;

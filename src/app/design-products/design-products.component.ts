@@ -12,21 +12,21 @@ export class DesignProductsComponent implements OnInit {
       title: '1. Define the Audience',
       subtitle:
         'Great businesses are built on great experiences. We make those experiences happen.',
-      img: '../../assets/img/icons/6.png',
+      img: 'assets/img/icons/6.png',
     },
     {
       id: 2,
       title: '2. Prototype & Test',
       subtitle:
         'Great businesses are built on great experiences. We make those experiences happen.',
-      img: '../../assets/img/icons/7.png',
+      img: 'assets/img/icons/7.png',
     },
     {
       id: 3,
       title: '3. Detail & Present Findings',
       subtitle:
         'Great businesses are built on great experiences. We make those experiences happen.',
-      img: '../../assets/img/icons/8.png',
+      img: 'assets/img/icons/8.png',
     },
   ];
 
