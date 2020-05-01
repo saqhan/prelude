@@ -206,9 +206,7 @@
   .cart-name i {
     left: 57%;
   }
-  .subscribe-form i {
-    left: -40%;
-  }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -319,5 +317,11 @@
   }
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

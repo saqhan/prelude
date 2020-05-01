@@ -25,9 +25,7 @@
   margin-top: 50px;
 }
 
-.carts-block {
 
-}
 
 
 .cart-name {
@@ -106,4 +104,26 @@
 .fourth-cart {
   background-image: url('src/assets/img/gallery-about-us-8.jpg');
   background-size: cover;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .filter-cart {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .filter-cart {
+    margin-bottom: 170px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .filter-cart {
+    margin-top: 0px;
+    margin-bottom: 00px;
+  }
+  .cart-name i {
+    left: 10%;
+  }
 }
