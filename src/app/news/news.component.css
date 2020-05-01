@@ -179,17 +179,17 @@
   }
 
   .subscribe-form input {
-  padding: 10px;
-  padding-left: 0px;
-  text-align: center;
-  border: none;
-  border-radius: 50px;
-  width: 100%;
-  height: 48px;
-  position: relative;
-  outline: none;
-  left: 0px;
-}
+    padding: 10px;
+    padding-left: 0px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    height: 48px;
+    position: relative;
+    outline: none;
+    left: 0px;
+  }
   .subscribe-form button {
     left: 0px;
   }

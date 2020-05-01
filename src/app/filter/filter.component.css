@@ -25,9 +25,6 @@
   margin-top: 50px;
 }
 
-
-
-
 .cart-name {
   width: 90%;
   height: 85px;
@@ -46,16 +43,14 @@
   text-decoration: none;
 }
 
-
 .filter-cart:hover .cart-name {
   color: #ff3366;
   text-decoration: none;
   bottom: 110px;
-
 }
 
 .filter-cart:hover .cart-name i {
-  color:#8ed4ea;
+  color: #8ed4ea;
 }
 
 .cart-name i {
@@ -67,14 +62,12 @@
   transition: 0.3s ease-in-out;
 }
 
-
 .filter-cart {
   width: 100%;
   height: 440px;
   border-radius: 5px;
   margin-top: 50px;
   margin-bottom: 70px;
-
 }
 .filter-cart img {
   width: 100%;
@@ -85,27 +78,24 @@
   color: #ff3366;
   text-decoration: none;
   bottom: 110px;
-
 }
 
-
 .firtst-cart {
-  background-image: url('src/assets/img/gallery-about-us-5.jpg');
+  background-image: url("src/assets/img/gallery-about-us-5.jpg");
   background-size: cover;
 }
 .second-cart {
-  background-image: url('src/assets/img/gallery-about-us-6.jpg');
+  background-image: url("src/assets/img/gallery-about-us-6.jpg");
   background-size: cover;
 }
 .third-cart {
-  background-image: url('src/assets/img/gallery-about-us-7.jpg');
+  background-image: url("src/assets/img/gallery-about-us-7.jpg");
   background-size: cover;
 }
 .fourth-cart {
-  background-image: url('src/assets/img/gallery-about-us-8.jpg');
+  background-image: url("src/assets/img/gallery-about-us-8.jpg");
   background-size: cover;
 }
-
 
 @media screen and (max-width: 1024px) {
   .filter-cart {
